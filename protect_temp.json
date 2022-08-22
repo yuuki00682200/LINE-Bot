@@ -1,0 +1,14 @@
+{
+    "group":{
+        "kick":[],
+        "join":[],
+        "invite":[],
+        "url":[]
+    },
+    "user":{
+        "black":[],
+        "white":[],
+        "admin":[]
+    },
+    "prefix":["/"]
+}
