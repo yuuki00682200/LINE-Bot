@@ -15,7 +15,7 @@ def send_mail(body_msg):
     smtpobj.ehlo()
     smtpobj.starttls()
     smtpobj.ehlo()
-    smtpobj.login("kotabbcc@gmail.com", "Kota0116")
+    smtpobj.login("@gmail.com", "usermode")
     a = smtpobj.sendmail(body_msg["From"], body_msg["To"], body_msg.as_string())
     smtpobj.close()
 
