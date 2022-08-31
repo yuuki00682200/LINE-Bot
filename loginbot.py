@@ -2,7 +2,7 @@ from auto_login import LoginBot
 from api import LineClient
 import aiohttp
 
-t, p = "lemon22@simaenaga.com", "kaiw0081"
+t, p = "hoge.com", "password"
 
 client = LineClient(
     token=t,
